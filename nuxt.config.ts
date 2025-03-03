@@ -4,4 +4,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	ssr: false,
 	modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt"],
+	tailwindcss: {
+		exposeConfig: false,
+	},
 });
